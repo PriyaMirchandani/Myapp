@@ -26,12 +26,4 @@ public void getName()
 {
 	return Name;
 	}
-	private  String setAuthor(String author)
-	{
-		this.author=author;
-System.out.println("author is set");
-	}
-	public void getAuthor()
-{
-	return Author;
-	}
+	
