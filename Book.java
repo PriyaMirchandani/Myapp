@@ -1,6 +1,8 @@
 class Book{
 private int bookId;
 private String name;
+private String author;
+
 
 
 public int setBookId(int bookId)
@@ -23,4 +25,13 @@ System.out.println("Name is set");
 public void getName()
 {
 	return Name;
+	}
+	private  String setAuthor(String author)
+	{
+		this.author=author;
+System.out.println("author is set");
+	}
+	public void getAuthor()
+{
+	return Author;
 	}
